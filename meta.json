@@ -1,0 +1,9 @@
+{
+  "extends": "larry",
+  "name": "CbitsMail",
+  "author": "CbitsNet",
+  "url": "https://cbits.net",
+  "license": "GPL",
+  "license-url": "https://cbits.net/"
+}
+

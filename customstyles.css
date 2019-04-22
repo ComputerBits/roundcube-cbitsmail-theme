@@ -1,0 +1,40 @@
+@media all {
+	#login-form .box-inner {
+			background: #aaa;
+	}
+
+	#login-form td.title {
+			color: black;
+			text-shadow: none;
+			font-weight: bold;
+	}
+
+	#toplogo {
+		height:44px;
+		background-color: white;
+	}
+	select#rcmloginhost::after {
+		content: 'HI!';
+		display: inline-block;
+		cursor: pointer;
+		width: 10px;
+		height: 10px;
+		background-repeat: no-repeat;
+		background-image: url("/assets/small-help-icon.gif");
+	}
+}
+
+@media print {
+	#toplogo {
+		display: none !important;
+	}
+}
+
+.c-visible {
+	display:block;
+	text-align:center;
+	font-size:30px;
+}
+.c-hidden {
+	display:none;
+}
